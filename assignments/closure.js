@@ -2,6 +2,22 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 
+function Rome() {
+  console.log(`I am an Empire`);
+  const message = "Pay your taxes!";
+  
+  function Vattacin() {
+    const VattacinSaying = "I am my own country!";
+    console.log(`${VattacinSaying} We are not associated with you, but you need to: ${message} to the church`);
+  }
+  
+  Vattacin();
+}
+
+Rome();
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
